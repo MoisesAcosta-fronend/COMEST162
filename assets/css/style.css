@@ -47,6 +47,7 @@ h2{
 }
 .clients{
   background: rgb(212, 159, 60);
+  text-align: justify;
 }
 
 
@@ -154,7 +155,9 @@ h2{
   opacity: 1;
   visibility: visible;
 }
-
+.testimonial{
+  text-align: justify;
+}
 .testimonial-wrap {
   padding: 50px 50px 80px 50px;
   background: #eceff2;
@@ -263,6 +266,9 @@ h2{
 }
 
 /* Services */
+.services{
+  text-align: justify;
+}
 .services i {
   font-size: 40px;
   color:rgb(229, 170, 61);
