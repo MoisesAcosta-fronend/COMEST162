@@ -386,7 +386,7 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
 
 }
 .custom-navmenu a:hover {
-  color: #83ae8b;
+  color: rgb(229, 170, 61);
 }
 .custom-navmenu i{
   padding: 0.5rem;
@@ -394,7 +394,7 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
 }
 .custom-navmenu i:hover{
   padding: 0.5rem;
-  color:#83ae8b;
+  color:rgb(229, 170, 61);
   transition: 0.4s;
 }
 
@@ -513,6 +513,6 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   transform: translate(-50%, -50%);
 }
 .social a:hover {
-  color: #83ae8b;
+  color: rgb(229, 170, 61);
   transition: 0.5s;
 }
