@@ -49,6 +49,22 @@ h2{
   background: rgb(212, 159, 60);
   text-align: justify;
 }
+.wave{
+  position: relative;
+  width: 100%;
+  
+
+
+}
+.wave img{
+  border-radius: 20px ;
+}
+.wave-item{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
 
 
 .filters a {
@@ -490,6 +506,7 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
 }
 .footer a {
   color:#006494;
+  
   
 }
 
