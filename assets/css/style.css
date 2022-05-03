@@ -287,6 +287,24 @@ h2{
 .services{
   text-align: justify;
 }
+.services li{
+  color:#e8f1f2;
+}
+.services a{
+  margin: 10px 0 0 0;
+  border: 3px solid rgb(229, 170, 61);
+  padding: 10px;
+  background: #13293d;
+  color:#e8f1f2;
+  
+}
+.services a:hover{
+  background:rgb(229, 170, 61);
+  border: 3px solid #0d1e2d;
+  color:#0d1e2d;
+  font-weight: 600;
+  transition: 0.8s;
+}
 .services i {
   font-size: 40px;
   color:rgb(229, 170, 61);
@@ -300,6 +318,9 @@ h2{
 }
 .services p{
   color:#e8f1f2;
+}
+.services span{
+  color:rgb(229, 170, 61);
 }
 
 /* Contact Form */
