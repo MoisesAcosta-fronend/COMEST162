@@ -538,3 +538,14 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
 .sobre-nosotros{
   color:#e8f1f2;
 }
+.maps{
+  color: #e8f1f2;
+  font-size: larger;
+  text-align: left;
+}
+.maps a{
+  color:#e8f1f2;
+}
+.maps a:hover{
+  color:rgb(229, 170, 61);
+}
