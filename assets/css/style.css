@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #0d1e2d;
   text-align: justify;
 }
@@ -18,26 +18,31 @@ a {
   color: #e8f1f2;
   text-decoration: none;
 }
-svg{
+svg {
   font-size: 25px;
   width: auto;
-  display:block;
-  margin: 8px 0 0 0 ;
-
+  display: block;
+  margin: 8px 0 0 0;
 }
 
 a:hover {
   color: #000;
 }
 
-h1, h2, h3, h4, h5, h6, .font-heading {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
   font-family: "Raleway", sans-serif;
 }
-h2{
-  color:#e8f1f2;
+h2 {
+  color: #e8f1f2;
 }
 
-.mb-0{
+.mb-0 {
   color: #e8f1f2;
 }
 
@@ -45,29 +50,24 @@ h2{
   padding: 7rem 0;
   background: #13293d;
 }
-.clients{
+.clients {
   background: rgb(212, 159, 60);
   text-align: justify;
 }
 
-
-.wave{
+.wave {
   position: relative;
   width: 100%;
-  
-
-
 }
-.wave img{
-  border-radius: 20px ;
+.wave img {
+  border-radius: 20px;
 }
-.wave-item{
-  position:absolute;
+.wave-item {
+  position: absolute;
   bottom: 0;
   width: 100%;
   left: 0;
 }
-
 
 .filters a {
   text-decoration: none;
@@ -77,7 +77,9 @@ h2{
   padding-right: 10px;
   position: relative;
 }
-.filters a:hover, .filters a:focus, .filters a:active {
+.filters a:hover,
+.filters a:focus,
+.filters a:active {
   text-decoration: none;
 }
 .filters a:hover:before {
@@ -104,7 +106,6 @@ h2{
 }
 
 .item {
-  
   border: none;
   margin-bottom: 30px;
 }
@@ -146,12 +147,11 @@ h2{
 .item .item-wrap > .work-info h3 {
   font-size: 20px;
   margin-bottom: 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .item .item-wrap > .work-info i {
   font-size: 30px;
   padding: 5px;
-  
 }
 .item .item-wrap > .work-info span {
   font-size: 14px;
@@ -159,7 +159,7 @@ h2{
   letter-spacing: 0.2rem;
 }
 .item .item-wrap:hover {
-  text-decoration:none;
+  text-decoration: none;
 }
 .item .item-wrap:hover img {
   transform: scale(1.8);
@@ -173,7 +173,7 @@ h2{
   opacity: 1;
   visibility: visible;
 }
-.testimonial{
+.testimonial {
   text-align: justify;
 }
 .testimonial-wrap {
@@ -216,7 +216,9 @@ h2{
   transition: 0.2s all ease;
   font-weight: 700;
 }
-.readmore:active, .readmore:focus, .readmore:hover {
+.readmore:active,
+.readmore:focus,
+.readmore:hover {
   outline: none;
 }
 .readmore:hover {
@@ -268,7 +270,8 @@ h2{
   padding-top: 10px !important;
   padding-bottom: 10px !important;
 }
-.form-control:active, .form-control:focus {
+.form-control:active,
+.form-control:focus {
   background: #eff1f4;
   outline: none;
   box-shadow: none;
@@ -284,43 +287,62 @@ h2{
 }
 
 /* Services */
-.services{
+.services {
   text-align: justify;
+  
 }
-.services li{
-  color:#e8f1f2;
+.services li {
+  color: #e8f1f2;
 }
-.services a{
+.services a {
   margin: 10px 0 0 0;
   border: 3px solid rgb(229, 170, 61);
   padding: 10px;
   background: #13293d;
-  color:#e8f1f2;
+  color: #e8f1f2;
+}
+.services a:hover {
+  background: rgb(229, 170, 61);
+  border: 3px solid #0d1e2d;
+  color: #0d1e2d;
+  font-weight: 600;
+  transition: 0.8s;
+}
+ .margen-articulos{
+  margin: 8em 0 0 0 ;
+  position: relative;
   
 }
-.services a:hover{
-  background:rgb(229, 170, 61);
+.botton {
+  margin: 10px 0 0 0;
+  border: 3px solid rgb(229, 170, 61);
+  padding: 10px;
+  background: #13293d;
+  color: #e8f1f2;
+}
+.botton:hover {
+  background: rgb(229, 170, 61);
   border: 3px solid #0d1e2d;
-  color:#0d1e2d;
+  color: #0d1e2d;
   font-weight: 600;
   transition: 0.8s;
 }
 .services i {
   font-size: 40px;
-  color:rgb(229, 170, 61);
+  color: rgb(229, 170, 61);
 }
 .services h4 {
   padding-top: 10px;
-  color:#e8f1f2;
+  color: #e8f1f2;
 }
-.services h3{
-  color:#e8f1f2;
+.services h3 {
+  color: #e8f1f2;
 }
-.services p{
-  color:#e8f1f2;
+.services p {
+  color: #e8f1f2;
 }
-.services span{
-  color:rgb(229, 170, 61);
+.services span {
+  color: rgb(229, 170, 61);
 }
 
 /* Contact Form */
@@ -384,17 +406,23 @@ h2{
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0000008a;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #43434396, #0000008b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- url(https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) 10% fixed;
+  background: #0000008a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #43434396,
+    #0000008b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4343438e, #0000008c),
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      url(https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+      10% fixed;
 }
-.nav_icons{
+.nav_icons {
   font-size: 25px;
-  
 }
-.custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
+.custom-navmenu .custom-menu,
+.custom-navmenu .custom-menu li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -421,19 +449,18 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   color: rgba(255, 255, 255, 0.989);
 }
 .custom-navmenu a {
-  color:#e8f1f2;
-
+  color: #e8f1f2;
 }
 .custom-navmenu a:hover {
   color: rgb(229, 170, 61);
 }
-.custom-navmenu i{
+.custom-navmenu i {
   padding: 0.5rem;
-  color:#e8f1f2;
+  color: #e8f1f2;
 }
-.custom-navmenu i:hover{
+.custom-navmenu i:hover {
   padding: 0.5rem;
-  color:rgb(229, 170, 61);
+  color: rgb(229, 170, 61);
   transition: 0.4s;
 }
 
@@ -453,7 +480,6 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   font-weight: 600;
 }
 
-
 /* Burger */
 .burger {
   width: 28px;
@@ -462,7 +488,9 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   position: relative;
 }
 
-.burger:before, .burger span, .burger:after {
+.burger:before,
+.burger span,
+.burger:after {
   width: 100%;
   height: 2px;
   display: block;
@@ -472,9 +500,16 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   opacity: 1;
 }
 
-.burger:before, .burger:after {
-  transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
-  -webkit-transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+.burger:before,
+.burger:after {
+  transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition: top 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    -webkit-transform 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    opacity 0.35s cubic-bezier(0.23, 1, 0.32, 1),
+    background-color 1.15s cubic-bezier(0.86, 0, 0.07, 1);
   content: "";
 }
 
@@ -504,7 +539,8 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   opacity: 0;
 }
 
-.burger.active:before, .burger.active:after {
+.burger.active:before,
+.burger.active:after {
   top: 40%;
 }
 
@@ -528,9 +564,7 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   background: #e8f1f2;
 }
 .footer a {
-  color:#006494;
-  
-  
+  color: #006494;
 }
 
 .social a {
@@ -543,7 +577,7 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   background: #0d1e2d;
   position: relative;
   text-align: center;
-  color:#e8f1f2;
+  color: #e8f1f2;
 }
 .social a span {
   display: inline-block;
@@ -556,21 +590,21 @@ background: linear-gradient(to right, #4343438e, #0000008c), /* W3C, IE 10+/ Edg
   color: rgb(229, 170, 61);
   transition: 0.5s;
 }
-.sobre-nosotros{
-  color:#e8f1f2;
+.sobre-nosotros {
+  color: #e8f1f2;
 }
-.maps{
+.maps {
   color: #e8f1f2;
   font-size: larger;
   text-align: left;
 }
-.maps a{
-  color:#e8f1f2;
+.maps a {
+  color: #e8f1f2;
 }
-.maps a:hover{
-  color:rgb(229, 170, 61);
+.maps a:hover {
+  color: rgb(229, 170, 61);
 }
 
-.blog{
-  color:#e8f1f2;
+.blog {
+  color: #e8f1f2;
 }
