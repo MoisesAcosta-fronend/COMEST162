@@ -39,7 +39,7 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 h2 {
-  color: #e8f1f2;
+  color:#e8f1f2;
 }
 
 .mb-0 {
@@ -49,10 +49,39 @@ h2 {
 .section {
   padding: 7rem 0;
   background: #13293d;
+  color: #e8f1f2;
+  
+}
+.swiper-slide{
+  color:#0d1e2d;
+}
+.section_ofimatica{
+  padding: 7rem 0;
+  background: rgb(229, 170, 61);
+  color: #0d1e2d;
+  font-weight: 600;
+}
+.section_ofimatica h2{
+  color:#0d1e2d;
+}
+.botton_ofimatica {
+  margin: 10px 0 0 0;
+  border: 3px solid rgb(229, 170, 61);
+  padding: 10px;
+  background: #13293d;
+  color: #e8f1f2;
+}
+.botton_ofimatica:hover {
+  background: rgb(229, 170, 61);
+  border: 3px solid #0d1e2d;
+  color: #0d1e2d;
+  font-weight: 600;
+  transition: 0.8s;
 }
 .clients {
   background: rgb(212, 159, 60);
   text-align: justify;
+  color: #0d1e2d;
 }
 
 .wave {
@@ -606,6 +635,4 @@ h2 {
   color: rgb(229, 170, 61);
 }
 
-.blog {
-  color: #e8f1f2;
-}
+
