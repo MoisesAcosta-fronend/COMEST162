@@ -57,29 +57,32 @@ h2 {
 }
 .section_ofimatica{
   padding: 7rem 0;
-  background: rgb(229, 170, 61);
+  background: rgba(229, 170, 61, 0.9);
   color: #0d1e2d;
   font-weight: 600;
 }
 .section_ofimatica h2{
   color:#0d1e2d;
 }
+.img_ofimatica{
+  border:2px solid #0d1e2d;
+}
 .botton_ofimatica {
   margin: 10px 0 0 0;
-  border: 3px solid rgb(229, 170, 61);
+  border: 3px solid rgba(229, 170, 61, 0.9);
   padding: 10px;
   background: #13293d;
   color: #e8f1f2;
 }
 .botton_ofimatica:hover {
-  background: rgb(229, 170, 61);
+  background: rgba(229, 170, 61, 0.9);
   border: 3px solid #0d1e2d;
   color: #0d1e2d;
   font-weight: 600;
   transition: 0.8s;
 }
 .clients {
-  background: rgb(212, 159, 60);
+  background: rgba(229, 170, 61, 0.9);
   text-align: justify;
   color: #0d1e2d;
 }
@@ -326,13 +329,13 @@ h2 {
 }
 .services a {
   margin: 10px 0 0 0;
-  border: 3px solid rgb(229, 170, 61);
+  border: 3px solid rgba(229, 170, 61, 0.9);
   padding: 10px;
   background: #13293d;
   color: #e8f1f2;
 }
 .services a:hover {
-  background: rgb(229, 170, 61);
+  background: rgba(229, 170, 61, 0.9);
   border: 3px solid #0d1e2d;
   color: #0d1e2d;
   font-weight: 600;
@@ -345,13 +348,13 @@ h2 {
 }
 .botton {
   margin: 10px 0 0 0;
-  border: 3px solid rgb(229, 170, 61);
+  border: 3px solid rgba(229, 170, 61, 0.9);
   padding: 10px;
   background: #13293d;
   color: #e8f1f2;
 }
 .botton:hover {
-  background: rgb(229, 170, 61);
+  background: rgba(229, 170, 61, 0.9);
   border: 3px solid #0d1e2d;
   color: #0d1e2d;
   font-weight: 600;
@@ -359,7 +362,7 @@ h2 {
 }
 .services i {
   font-size: 40px;
-  color: rgb(229, 170, 61);
+  color: rgba(229, 170, 61, 0.9);
 }
 .services h4 {
   padding-top: 10px;
