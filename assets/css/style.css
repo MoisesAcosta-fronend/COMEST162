@@ -151,11 +151,13 @@ h2 {
 .item {
   border: none;
   margin-bottom: 30px;
+  
 }
 .item .item-wrap {
   display: block;
   position: relative;
   overflow: hidden;
+  
 }
 .item .item-wrap:after {
   z-index: 2;
@@ -340,15 +342,15 @@ h2 {
 }
 .services a {
   margin: 10px 0 0 0;
-  border: 3px solid burlywood;
+  border: 3px solid #006494;
   padding: 10px;
   background: #13293d;
   color: #e8f1f2;
 }
 .services a:hover {
-  background: burlywood;
+  background: #006494;
   border: 3px solid #0d1e2d;
-  color: #0d1e2d;
+  color: #e8f1f2;
   font-weight: 600;
   transition: 0.8s;
 }
@@ -360,15 +362,15 @@ h2 {
 }
 .botton {
   margin: 10px 0 0 0;
-  border: 3px solid burlywood;
+  border: 3px solid #006494;
   padding: 10px;
   background: #13293d;
   color: #e8f1f2;
 }
 .botton:hover {
-  background: burlywood;
+  background: #006494;
   border: 3px solid #0d1e2d;
-  color: #0d1e2d;
+  color: #e8f1f2;
   font-weight: 600;
   transition: 0.8s;
 }
@@ -482,6 +484,7 @@ h2 {
 }
 .custom-navmenu .custom-menu li a:hover {
   text-decoration: none;
+  color:#fffbf4;
 }
 .custom-navmenu .custom-menu li.active a {
   text-decoration: underline;
@@ -649,5 +652,6 @@ h2 {
 .maps a:hover {
   color:burlywood;
 }
+
 
 
