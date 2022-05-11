@@ -13,6 +13,9 @@ body {
   color: #0d1e2d;
   text-align: justify;
 }
+i{
+  font-size: 25px;
+}
 
 a {
   color: #e8f1f2;
