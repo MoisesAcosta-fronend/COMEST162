@@ -27,6 +27,14 @@ svg {
   display: block;
   margin: 8px 0 0 0;
 }
+@media screen and (max-width: 414px) {
+  .svg{
+    display: none;
+  }
+}
+
+  
+
 
 a:hover {
   color: #000;
