@@ -659,9 +659,11 @@ h2 {
 .maps a:hover {
   color:burlywood;
 }
-@media screen and (max-width: 414px) {
-  .svg{
+@media (max-width: 414px) {
+   .svg {
     display: none;
+   
+
   }
 }
 
